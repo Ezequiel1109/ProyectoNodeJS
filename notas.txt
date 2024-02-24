@@ -1,0 +1,61 @@
+comando para usar en node.js
+
+para realizar el archivo package.js se necesita este comando
+npm init
+
+package name: (seccion-4-bases-de-node)
+version: (1.0.0) 0.0.1
+description: Es una simple tabla de multiplicar
+entry point: (app.js)
+test command:
+git repository:
+keywords:
+author: David Robinet
+license: (ISC) Mit
+
+
+{
+  "name": "seccion-4-bases-de-node",
+  "version": "0.0.1",
+  "description": "Es una simple tabla de multiplicar",       
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"    
+  },
+  "author": "David Robinet",
+  "license": "MIT"
+}
+
+para instalar nodemon se necesita este comando
+npm install nodemon --save-dev
+para desintalarlo
+npm uninstall nodemon
+
+para instalar el paquete de colores
+npm install i colors
+para desintalar 
+npm uninstall colors
+
+para instalar la version en expecifico
+npm i colors@1.0.0
+
+para revisar las dependencia que tengo y me mostrara las actualizadas y o actualizara
+npm update
+
+para instalar yargs
+npm i yargs
+
+
+GIT
+git checkout -- . es para reconstruir el codigo si no modificaste y lo guardaste mal
+git commit -m "primer commit",resive argumentos 
+git add . es para tomar los archivos y hacer de ellos una fotografia, y toma todo lo del projecto ignorando lo que esta en el 
+gitignore.
+
+git push sube los archivos al repositorio.
+
+
+para verificar los logs del proyecto
+heroku logs -n 100
+para mantener en tiempo real con el proyecto
+heroku logs -n 100 --tail

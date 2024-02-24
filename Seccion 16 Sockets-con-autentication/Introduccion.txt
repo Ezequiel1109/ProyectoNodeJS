@@ -1,0 +1,30 @@
+Temas puntuales de la sección
+En esta sección:
+
+Veremos cómo establecer una comunicación con nuestro WebScoket 
+server pero validando la autenticación del usuario, 
+y a la vez confirmar que los mensajes enviados por ese usuario son de quien dice ser.
+
+Puntualmente veremos:
+
+Autenticar Sockets
+
+Usar JWT para validar Sockets
+
+Headers personalizados para Sockets
+
+Implementar el login en el FrontEnd
+
+Implementar y usar el GoogleSign in creado
+
+Enviar mensajes privados
+
+Enviar mensajes a salas
+
+Enviar mensajes globales
+
+Es una sección que visualmente no es atractiva, pero les dará todos los fundamentos 
+necesarios para que lo sigan mejorando tanto como deseen.
+
+https://github.com/Klerith/curso-node-restserver/releases/tag/v5.0.0
+https://www.npmjs.com/package/socket.io
